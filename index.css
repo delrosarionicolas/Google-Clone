@@ -1,0 +1,70 @@
+ :root {
+     --border      : 1px solid #5f6368;
+     --var         : #bdc1c6;
+     --header-black: rgba(32, 33, 36, 1);
+     --text-footer : rgba(255, 255, 255, .54);
+     --soft-black  : #303134;
+     --warm-black  : #202124;
+     --white       : #e8eaed;
+ }
+
+ * {
+     box-sizing: border-box;
+     list-style: none;
+     margin    : 0%;
+     padding   : 0%;
+ }
+
+ a {
+     text-decoration: none;
+     cursor         : pointer;
+ }
+
+ html {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size  : 62.5%;
+ }
+
+ .header {
+     height: 60px;
+     width : 100%;
+     background-color: var(--header-black);
+ }
+
+ .header .header__nav {
+     display        : flex;
+     justify-content: flex-end;
+ }
+
+ .header__nav-right-section {
+     align-items    : center;
+     display        : flex;
+     height         : 60px;
+     justify-content: end;
+     width          : 250px;
+     margin: 0 7px;
+ }
+
+ .header__nav-right-section a {
+     color : #ffffff;
+     margin: 0 7px 0 0;
+     font-size: 1.3rem;
+ }
+
+ .header__nav-right-section .menu-icon {
+     background-image: url(./assets/icons/menu-google.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 21px;
+     height: 21px;
+ }
+
+ .header__nav-right-section img {
+     border-radius: 50%;
+     margin-left: 7px;
+ }
+
+ .header__nav-right-section li {
+     margin: 0 3px 0 12px;
+ }
