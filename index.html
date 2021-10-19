@@ -1,21 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Clone</title>
-    <link rel="stylesheet" href="./styles/main-mobile.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
-    <header>
-
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav-right-section">
+                <li>
+                    <a href="">Gmail</a>
+                </li>
+                <li>
+                    <a href="">Imágenes</a>
+                </li>
+                <li class="menu-icon">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60"
+                            viewBox="0 0 226 226" style=" fill:#000000;">
+                            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <path d="M0,226v-226h226v226z" fill="none"></path>
+                                <g fill="#ffffff">
+                                    <path
+                                        d="M52.73333,33.9c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM113,33.9c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM173.26667,33.9c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM52.73333,94.16667c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM113,94.16667c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM173.26667,94.16667c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM52.73333,154.43333c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM113,154.43333c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333zM173.26667,154.43333c-10.40353,0 -18.83333,8.4298 -18.83333,18.83333c0,10.40353 8.4298,18.83333 18.83333,18.83333c10.40353,0 18.83333,-8.4298 18.83333,-18.83333c0,-10.40353 -8.4298,-18.83333 -18.83333,-18.83333z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="https://lh3.googleusercontent.com/ogw/ADea4I4zW3u8kCMGt-B6jAwZh7UroVUuQuCvnLb4j26-=s32-c-mo"
+                            srcset="https://lh3.googleusercontent.com/ogw/ADea4I4zW3u8kCMGt-B6jAwZh7UroVUuQuCvnLb4j26-=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/ADea4I4zW3u8kCMGt-B6jAwZh7UroVUuQuCvnLb4j26-=s64-c-mo 2x "
+                            alt="Perfil">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <main>
-
+    <main class="main">
+        <section class="main__logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Transparent_google_logo_2015.png"
+                alt="Google">
+        </section>
+        <section class="main__input">
+            <div class="main__input-container">
+                <span class="search-icon">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                </span>
+                <input type="text">
+            </div>
+        </section>
+        <section class="main__buttons">
+            <div><button>Buscar con Google</button></div>
+            <div><button>Me siento con suerte</button></div>
+        </section>
+        <section class="main__languages">
+            <div class="main__languages-container">
+                <p>Ofrecido por Google en: </p>
+                <a href="">English</a>
+                <a href="">Quechua</a>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <ul class="footer--top">
+        <li class="footer--top-li">Perú</li>
+    </ul>
+    <footer class="footer">
+        <div>
+            <ul class="footer--left">
+                <li>
+                    <a href="">Sobre Google</a>
+                </li>
+                <li>
+                    <a href="">Publicidad</a>
+                </li>
+                <li>
+                    <a href="">Negocios</a>
+                </li>
+                <li>
+                    <a href="">Cómo funciona la busqueda</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer--right">
+                <li>
+                    <a href="">Privacidad</a>
+                </li>
+                <li>
+                    <a href="">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Preferencias</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
+
 </html>
